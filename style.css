@@ -89,6 +89,7 @@ color: #282828;
   align-items: center;
   justify-content: flex-end;
 }
+
 #nav-part2 button {
   padding: 8px 24px;
   border-radius: 40px;
@@ -293,3 +294,71 @@ cursor: pointer;
 font-size: 24px;
 margin-right: 5px;
 }
+
+
+@media screen and (max-width: 414px) {
+
+  #nav-part1{
+  display: none;
+}
+
+.footer_main{
+  display: none;
+}
+
+#nav img {
+  height: 30px;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#nav-part2 {
+display: none;
+}
+
+#hero_section {
+  width: 100%;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero_section h3 {
+    background-color: #f2b0ea;
+    padding: 6px 16px;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 15px
+}
+
+#hero_section h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'SuisseIntl';
+    font-weight: 600;
+    line-height: 53px;
+    color: #282828;
+}
+
+#hero_section h4
+ {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block !important;
+    width: 51% !important;
+}
+
+}
+
