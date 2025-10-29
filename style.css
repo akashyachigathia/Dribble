@@ -357,7 +357,24 @@ display: none;
 
 .owl-carousel .owl-item img {
     display: block !important;
-    width: 51% !important;
+    width: 56% !important;
+}
+
+.text-bottom h5 {
+  font-size: 14px;
+  color: white;
+  font-weight: 200;
+  text-align: left;
+  padding: 12px 0 0 10px;
+  line-height: 20px;
+}
+
+
+.elem .text-bottom {
+  height: 35%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 }
